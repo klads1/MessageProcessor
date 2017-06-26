@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
+ 	<xs:element name="SalesMessage" type="SalesMessageType"/>
+ 	<xs:complexType name="SalesMessageType">
+   		<xs:sequence>
+			<xs:element type="MessageTypeType" name="MessageType" minOccurs="1"/>
+			<xs:element type="xs:string" name="Product" minOccurs="1"/>
+			<xs:element type="xs:decimal" name="Value" minOccurs="1"/>
+			<xs:element type="xs:integer" name="NumberOfSales" minOccurs="0" />
+			<xs:element type="OperationType" name="Operation" minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="MessageTypeType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="1">
+				<xs:annotation>
+					<xs:documentation>Sale message</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="2">
+				<xs:annotation>
+					<xs:documentation>Multiple sale message</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="3">
+				<xs:annotation>
+					<xs:documentation>Adjustment message</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="OperationType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Add" />
+			<xs:enumeration value="Subtract" />
+			<xs:enumeration value="Multiply" />
+		</xs:restriction>
+	</xs:simpleType></xs:schema>

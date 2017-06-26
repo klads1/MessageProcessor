@@ -1,0 +1,59 @@
+Sales Totals Report
+===================
+Apple - 6 sales totalling £2.45
+Dragonfruit - 1 sales totalling £1.00
+Grapefruit - 2 sales totalling £1.39
+Orange - 1 sales totalling £0.61
+Watermelon - 1 sales totalling £1.45
+*******************
+Sales Totals Report
+===================
+Apple - 12 sales totalling £4.90
+Dragonfruit - 2 sales totalling £2.00
+Grapefruit - 4 sales totalling £2.78
+Orange - 2 sales totalling £1.22
+Watermelon - 2 sales totalling £2.90
+*******************
+Sales Totals Report
+===================
+Apple - 18 sales totalling £7.35
+Dragonfruit - 3 sales totalling £3.00
+Grapefruit - 6 sales totalling £4.17
+Orange - 3 sales totalling £1.83
+Watermelon - 3 sales totalling £4.35
+*******************
+Sales Totals Report
+===================
+Apple - 24 sales totalling £9.80
+Dragonfruit - 4 sales totalling £4.00
+Grapefruit - 8 sales totalling £5.56
+Orange - 4 sales totalling £2.44
+Watermelon - 4 sales totalling £5.80
+*******************
+Sales Totals Report
+===================
+Apple - 30 sales totalling £12.25
+Dragonfruit - 5 sales totalling £5.00
+Grapefruit - 10 sales totalling £6.95
+Orange - 5 sales totalling £3.05
+Watermelon - 5 sales totalling £7.25
+*******************
+!!!Message Processor pausing...no further messages will be accepted!!!
+Adjustments Report
+==================
+Apple - 0.05(Add)
+Apple - 0.05(Add)
+Apple - 0.05(Add)
+Apple - 0.05(Add)
+Apple - 0.05(Add)
+Grapefruit - 0.07(Subtract)
+Grapefruit - 0.07(Subtract)
+Grapefruit - 0.07(Subtract)
+Grapefruit - 0.07(Subtract)
+Grapefruit - 0.07(Subtract)
+Orange - 1.25(Multiply)
+Orange - 1.25(Multiply)
+Orange - 1.25(Multiply)
+Orange - 1.25(Multiply)
+Orange - 1.25(Multiply)
+******************

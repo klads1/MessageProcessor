@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SalesMessage>
+  <MessageType>3</MessageType>
+  <Product>Apple</Product>
+  <Value>0.45</Value>
+  <NumberOfSales>5</NumberOfSales>
+  <Operation>Add</Operation>
+</SalesMessage>
